@@ -44,10 +44,10 @@ python -m http.server 8000
 python scripts/new_study.py "潮汐线" --slug tide-lines
 ```
 
-脚本会占用下一个序号，生成 **021-tide-lines.html** 和同名 txt。写完页面后：
+脚本会占用下一个序号，位数跟现有文件一致，生成 **21-tide-lines.html** 和同名 txt。写完页面后：
 
 ```bash
-python scripts/capture_screenshots.py 021   # 只拍这一张
+python scripts/capture_screenshots.py 21    # 只拍这一张
 python scripts/build_gallery.py             # 重建画廊
 ```
 

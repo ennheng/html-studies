@@ -326,8 +326,11 @@ def main() -> None:
     (ROOT / "studies.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"已生成 index.html：{count} 件作品（截图 {with_thumbs}，实时预览 {count - with_thumbs}）")
-    if TARGET and count != TARGET:
-        print(f"提示：当前 {count} 件，目标 {TARGET} 件，还差 {TARGET - count} 件。")
+    if TARGET:
+        if count < TARGET:
+            print(f"提示：当前 {count} 件，还差 {TARGET - count} 件到 {TARGET} 件。")
+        elif count > TARGET:
+            print(f"提示：当前 {count} 件，已超过目标 {TARGET} 件，可以把 build_gallery.py 里的 TARGET 调大。")
 
 
 if __name__ == "__main__":

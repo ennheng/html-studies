@@ -63,8 +63,13 @@ def main() -> None:
     parser.add_argument("--slug", default="", help="英文短名，用于文件名；留空则用编号")
     args = parser.parse_args()
 
-    existing = sorted(ROOT.glob("[0-9][0-9][0-9]-*.html"))
-    number = f"{(int(existing[-1].name[:3]) + 1 if existing else 1):03d}"
+    existing = sorted(
+        {path for pattern in ("[0-9][0-9]-*.html", "[0-9][0-9][0-9]-*.html") for path in ROOT.glob(pattern)},
+        key=lambda path: int(path.name.split("-")[0]),
+    )
+    last = int(existing[-1].name.split("-")[0]) if existing else 0
+    width = len(existing[-1].name.split("-")[0]) if existing else 3
+    number = str(last + 1).zfill(width)
     slug = re.sub(r"[^a-z0-9-]+", "-", args.slug.lower()).strip("-") or "study"
     stem = f"{number}-{slug}"
 
