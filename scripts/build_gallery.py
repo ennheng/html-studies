@@ -21,12 +21,8 @@ OUT = ROOT / "index.html"
 THUMBS = ROOT / "thumbs"
 STUDY_GLOBS = ("[0-9][0-9]-*.html", "[0-9][0-9][0-9]-*.html")
 
-COLLECTION = "HTML 单文件作品集"
-EYEBROW = "COLLECTION · SINGLE-FILE HTML"
-LEDE = (
-    "每个页面都是一个独立的 HTML 文件：样式、脚本、字体、图形全部内联，"
-    "不依赖 CDN，也没有构建步骤。双击就能离线打开，也可以直接丢进任意静态托管。"
-)
+MODEL = "Kimi 3.1 Pro"
+EYEBROW = "COLLECTION · SINGLE-FILE HTML · 2026"
 TARGET = 20
 SITE_URL = "https://ennheng.github.io/html-studies/"  # 部署后的地址，用来生成 og:image 的绝对路径
 REPO_URL = "https://github.com/ennheng/html-studies"  # 留空则不显示右下角链接
@@ -277,6 +273,11 @@ def main() -> None:
 
     with_thumbs = sum(1 for entry in entries if entry["thumb"])
     count = len(entries)
+    headline = f"{MODEL} · {count} 个 HTML"
+    lede = (
+        f"{MODEL} 生成的 {count} 个单文件 HTML：样式、脚本、字体、图形全部内联，"
+        "不依赖 CDN，也没有构建步骤。双击就能离线打开，也可以直接丢进任意静态托管。"
+    )
     target_line = f"<span>目标{TARGET}件</span>" if TARGET else ""
 
     social = ""
@@ -284,8 +285,8 @@ def main() -> None:
         social = (
             f'<link rel="canonical" href="{SITE_URL}">\n'
             '<meta property="og:type" content="website">\n'
-            f'<meta property="og:title" content="{escape(COLLECTION)} · {count}件">\n'
-            f'<meta property="og:description" content="{escape(LEDE)}">\n'
+            f'<meta property="og:title" content="{escape(headline)}">\n'
+            f'<meta property="og:description" content="{escape(lede)}">\n'
             f'<meta property="og:url" content="{SITE_URL}">\n'
             f'<meta property="og:image" content="{SITE_URL}og.jpg">\n'
             '<meta property="og:image:width" content="1200">\n'
@@ -299,8 +300,8 @@ def main() -> None:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{escape(COLLECTION)} · {count} 件</title>
-<meta name="description" content="{escape(LEDE)}">
+<title>{escape(headline)}</title>
+<meta name="description" content="{escape(lede)}">
 {social}<meta name="generator" content="scripts/build_gallery.py">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>{CSS}</style>
@@ -309,8 +310,8 @@ def main() -> None:
 <main class="wrap">
 <header>
   <p class="eyebrow">{escape(EYEBROW)}</p>
-  <h1>{escape(COLLECTION)}</h1>
-  <p class="lede">{escape(LEDE)}</p>
+  <h1>{escape(headline)}</h1>
+  <p class="lede">{escape(lede)}</p>
   <p class="stats"><span><b>{count}</b>件作品</span>{target_line}<span>无依赖 · 可离线</span></p>
 </header>
 <div class="toolbar">
@@ -326,7 +327,7 @@ def main() -> None:
     tail = f"""</div>
 <p class="empty" id="empty" hidden>没有匹配的作品，换个关键词试试。</p>
 <noscript><p class="src">全部作品与预览已列在上方；启用 JavaScript 后可以使用搜索和提示词面板。</p></noscript>
-<footer><span>{escape(COLLECTION)} · {count}件 · 单文件 HTML</span>{f'<a href="{REPO_URL}">GitHub ↗</a>' if REPO_URL else '<span>由 build_gallery.py 生成</span>'}</footer>
+<footer><span>{escape(headline)}</span>{f'<a href="{REPO_URL}">GitHub ↗</a>' if REPO_URL else '<span>由 build_gallery.py 生成</span>'}</footer>
 </main>
 <script>{JS}</script>
 </body>

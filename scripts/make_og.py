@@ -32,10 +32,10 @@ def main() -> None:
     eyebrow_font = ImageFont.truetype(FONT_EN, 15)
     meta_font = ImageFont.truetype(FONT_EN, 15)
 
-    draw.text((margin, 28), "C O L L E C T I O N   ·   S I N G L E - F I L E   H T M L", font=eyebrow_font, fill=ACCENT)
+    draw.text((margin, 28), "K I M I   3 . 1   P R O   ·   2 0   S I N G L E - F I L E   H T M L", font=eyebrow_font, fill=ACCENT)
     draw.text((margin, 56), "20 个 HTML，一个作品集", font=title_font, fill=INK)
     draw.text((W - margin, 34), "2026", font=meta_font, fill=MUTED, anchor="ra")
-    draw.text((W - margin, 58), "SELF-CONTAINED", font=meta_font, fill=MUTED, anchor="ra")
+    draw.text((W - margin, 58), "SINGLE-FILE", font=meta_font, fill=MUTED, anchor="ra")
 
     # 2×3 缩略图墙
     picks = ["01-chromatic-orbit", "06-brutalist-radio", "09-alpine-air",
