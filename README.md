@@ -87,6 +87,14 @@ gh api --method POST repos/ennheng/html-studies/pages \
 
 把生成每一页时用的完整提示词粘进对应 txt 的 PROMPT 段，重新跑 build_gallery.py，卡片上就会多出「提示词」按钮和展开面板——那才是这类作品集真正值钱的部分：**别人能看见同样的输入换来了什么输出**。
 
+## 分享到 X / 社交平台
+
+index.html 已经带 og 和 Twitter Card 元标签，og.jpg 是 1200×630 的分享卡。把链接贴进推文，就会展开成一张大图卡片。
+
+如果你想发成 Mia 那种「四张截图 + 链接」的串，具体文案、配图顺序和坑都写在 **X发布文案.md** 里。
+
+改过 SITE_URL 或 og.jpg 之后，记得同步改 build_gallery.py 顶部的常量，再重新 build。
+
 ## 部署到别处
 
 纯静态，整个文件夹可以直接拖进 Cloudflare Pages、Vercel、Netlify，不需要任何构建配置。也可以放到你自己的域名下，当作作品集的一个子目录。
