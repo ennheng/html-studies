@@ -28,7 +28,8 @@ LEDE = (
     "不依赖 CDN，也没有构建步骤。双击就能离线打开，也可以直接丢进任意静态托管。"
 )
 TARGET = 20
-REPO_URL = ""  # 例如 "https://github.com/ennheng/html-studies"，留空则不显示
+SITE_URL = "https://ennheng.github.io/html-studies/"  # 部署后的地址，用来生成 og:image 的绝对路径
+REPO_URL = "https://github.com/ennheng/html-studies"  # 留空则不显示右下角链接
 
 ALIASES = {
     "title": ("TITLE", "标题"),
@@ -278,6 +279,21 @@ def main() -> None:
     count = len(entries)
     target_line = f"<span>目标{TARGET}件</span>" if TARGET else ""
 
+    social = ""
+    if SITE_URL:
+        social = (
+            f'<link rel="canonical" href="{SITE_URL}">\n'
+            '<meta property="og:type" content="website">\n'
+            f'<meta property="og:title" content="{escape(COLLECTION)} · {count}件">\n'
+            f'<meta property="og:description" content="{escape(LEDE)}">\n'
+            f'<meta property="og:url" content="{SITE_URL}">\n'
+            f'<meta property="og:image" content="{SITE_URL}og.jpg">\n'
+            '<meta property="og:image:width" content="1200">\n'
+            '<meta property="og:image:height" content="630">\n'
+            '<meta name="twitter:card" content="summary_large_image">\n'
+            f'<meta name="twitter:image" content="{SITE_URL}og.jpg">\n'
+        )
+
     head = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -285,7 +301,7 @@ def main() -> None:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{escape(COLLECTION)} · {count} 件</title>
 <meta name="description" content="{escape(LEDE)}">
-<meta name="generator" content="scripts/build_gallery.py">
+{social}<meta name="generator" content="scripts/build_gallery.py">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>{CSS}</style>
 </head>
