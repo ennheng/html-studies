@@ -92,6 +92,96 @@
 > 一段深空信号的解码过程，数据逐条打印，最后才告诉你它说了什么。
 > https://ennheng.github.io/html-studies/20-the-last-signal.html
 
+## 20 条（英文版）
+
+Main tweet
+
+> 20 HTML files. One model: Kimi 3.1 Pro.
+>
+> Every page is a single self-contained file — no CDN, no web fonts, no build step. Open it offline and it runs.
+>
+> One page per post, one sentence and one link, in the thread ↓
+
+01 Chromatic Orbit
+> A generative observatory where 144 bodies drift under gravity — move the pointer and space bends.
+> https://ennheng.github.io/html-studies/01-chromatic-orbit.html
+
+02 After Hours
+> A listening room at 2 a.m.: tonight's set, worn vinyl, VU meters, one dim lamp.
+> https://ennheng.github.io/html-studies/02-after-hours.html
+
+03 Wild Atlas
+> Three pressed specimens in a drawer archive — switch one and its plate turns over: Latin name, coordinates, illustration.
+> https://ennheng.github.io/html-studies/03-wild-atlas.html
+
+04 Neon Velocity
+> A night circuit: hold ↑ to accelerate, ↓ to brake, revs and sector times moving with you.
+> https://ennheng.github.io/html-studies/04-neon-velocity.html
+
+05 Tide & Time
+> Breathe with the tide — 4 in, 4 hold, 6 out — and the water keeps time.
+> https://ennheng.github.io/html-studies/05-tide-and-time.html
+
+06 OFF/AIR
+> Four stations, oversized type and a tuning scale: an independent radio station built from layout alone.
+> https://ennheng.github.io/html-studies/06-brutalist-radio.html
+
+07 The Celestial Archive
+> A museum of night skies: four constellations kept in drawers, each opening into an artifact card.
+> https://ennheng.github.io/html-studies/07-celestial-archive.html
+
+08 Little Riot
+> A twelve-frame paper film about a whale and the moon, playing at six frames a second.
+> https://ennheng.github.io/html-studies/08-paper-cinema.html
+
+09 ALTITUDE
+> Three days on a high traverse, told in three acts as altitude, route and gear scroll past.
+> https://ennheng.github.io/html-studies/09-alpine-air.html
+
+10 Cloud Kettle
+> A tea room above the clouds — four leaves, one kettle, and a cat that saved you a seat.
+> https://ennheng.github.io/html-studies/10-pixel-teahouse.html
+
+11 Type in Motion
+> Type your own phrase, then set it moving: wave, orbit, scatter, stack.
+> https://ennheng.github.io/html-studies/11-type-in-motion.html
+
+12 Golden Hour Kitchen
+> A solar-cooking field guide — drag the sun and the shadows and colour temperature follow.
+> https://ennheng.github.io/html-studies/12-solar-cooking.html
+
+13 Moonstem
+> A midnight florist: three nocturnal bouquets drawn in SVG and wrapped while you watch.
+> https://ennheng.github.io/html-studies/13-midnight-florist.html
+
+14 Pair Up!
+> An eight-pair memory arcade with a move counter, a timer and a local high score.
+> https://ennheng.github.io/html-studies/14-memory-arcade.html
+
+15 Atlas of Elsewhere
+> Four cities that exist only when remembered, laid out as a horizontal atlas.
+> https://ennheng.github.io/html-studies/15-invisible-cities.html
+
+16 Form / Frequency
+> An oscillator pushing 128 vertices — one set of parameters for the sound and the shape.
+> https://ennheng.github.io/html-studies/16-sound-sculptor.html
+
+17 Mono Museum
+> Four monochrome works on a gallery wall, and almost nothing else.
+> https://ennheng.github.io/html-studies/17-mono-museum.html
+
+18 Fieldwork
+> Scrub through the next 24 hours of temperature, humidity and wind, set like field notes.
+> https://ennheng.github.io/html-studies/18-pocket-weather.html
+
+19 Mooncrumb
+> Four pastries in orbit; pick one and its recipe and tasting box drop in.
+> https://ennheng.github.io/html-studies/19-cosmic-bakery.html
+
+20 The Last Signal
+> A deep-space transmission, decoded packet by packet, until it finally says what it says.
+> https://ennheng.github.io/html-studies/20-the-last-signal.html
+
 ## 配图
 
 想配图就拖对应的 `thumbs/<同名>.jpg`。注意：**同一条推里既有图又有链接时，X 不渲染链接大卡片**，只显示一行蓝字——这是正常行为。
