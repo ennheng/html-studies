@@ -1,0 +1,8 @@
+TITLE: Form / Frequency — Sound Sculptor
+
+DESCRIPTION:
+视听合成器：Web Audio 的振荡器驱动 128 个顶点的实时几何，步进音序器可以点格子编曲，声音和形状共用一组参数。
+
+PROMPT:
+
+TECHNIQUES:

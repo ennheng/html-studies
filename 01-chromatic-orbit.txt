@@ -1,0 +1,8 @@
+TITLE: Chromatic Orbit — A Generative Observatory
+
+DESCRIPTION:
+一座生成艺术观测台：144 个发光天体在引力与潮汐力下缓慢聚散，移动指针能弯曲空间、拖动则打散星群。右侧是实时读数面板。
+
+PROMPT:
+
+TECHNIQUES:

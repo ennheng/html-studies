@@ -1,0 +1,8 @@
+TITLE: The Celestial Archive — Museum of the Night
+
+DESCRIPTION:
+夜空博物馆：猎户座、天琴座、天鹅座、仙后座收在档案抽屉里，选中后展开藏品卡、赤经赤纬与观测说明。
+
+PROMPT:
+
+TECHNIQUES:

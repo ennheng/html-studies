@@ -1,0 +1,8 @@
+TITLE: Wild Atlas — A Botanical Field Journal
+
+DESCRIPTION:
+植物田野笔记：毛地黄、虞美人、欧洲蕨三份标本收在抽屉式档案里，切换时翻出学名、科属、采集坐标与插图。
+
+PROMPT:
+
+TECHNIQUES:

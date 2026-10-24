@@ -1,0 +1,8 @@
+TITLE: Mono Museum — Studies in Silence
+
+DESCRIPTION:
+数字展览：四件单色作品挂在美术馆的墙上，配作品档案、尺寸与说明牌，整页几乎只有黑白两色。
+
+PROMPT:
+
+TECHNIQUES:

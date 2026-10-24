@@ -1,0 +1,8 @@
+TITLE: Little Riot — Paper Cinema Studio
+
+DESCRIPTION:
+纸片电影工作室：一部关于鲸鱼和月亮的 12 格分镜，按每秒 6 帧逐格播放，旁边是导演笔记和曝光表。
+
+PROMPT:
+
+TECHNIQUES:

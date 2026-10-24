@@ -1,0 +1,8 @@
+TITLE: Type in Motion — Kinetic Typography Playground
+
+DESCRIPTION:
+动态字体实验室：输入自己的短语，切换波浪、轨道、散落、堆叠四种运动，再调速度、字距和字重，指针能把字阵搅乱。
+
+PROMPT:
+
+TECHNIQUES:

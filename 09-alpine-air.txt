@@ -1,0 +1,8 @@
+TITLE: ALTITUDE — The Grand Traverse
+
+DESCRIPTION:
+高山徒步的编辑式长页：三天行程分成三幕，海拔、路线、装备与向导信息随滚动逐段推进，像一本私人探险手册。
+
+PROMPT:
+
+TECHNIQUES:

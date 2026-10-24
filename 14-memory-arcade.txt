@@ -1,0 +1,8 @@
+TITLE: Pair Up! — Memory Arcade
+
+DESCRIPTION:
+记忆配对街机：8 对卡牌、计步计时、最高分存在本地，开机画面和像素字体都在模仿八十年代的街机柜。
+
+PROMPT:
+
+TECHNIQUES:

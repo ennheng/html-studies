@@ -1,0 +1,8 @@
+TITLE: Cloud Kettle — A Tiny Tea Room
+
+DESCRIPTION:
+云上茶室：四款茶叶可选，选茶后茶盘与说明一起更新，还可以点亮茶壶；角落留着「猫已经替你占好座位」的便条。
+
+PROMPT:
+
+TECHNIQUES:

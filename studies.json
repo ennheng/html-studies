@@ -1,0 +1,182 @@
+[
+  {
+    "num": "01",
+    "file": "01-chromatic-orbit.html",
+    "title": "Chromatic Orbit — A Generative Observatory",
+    "description": "一座生成艺术观测台：144 个发光天体在引力与潮汐力下缓慢聚散，移动指针能弯曲空间、拖动则打散星群。右侧是实时读数面板。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "01-chromatic-orbit.jpg"
+  },
+  {
+    "num": "02",
+    "file": "02-after-hours.html",
+    "title": "After Hours — Blue Note Room",
+    "description": "深夜蓝调聆听室：今晚的曲目单、正在播放的黑胶、模拟电平表和一点昏黄的灯光。整页像一张凌晨两点的俱乐部海报。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "02-after-hours.jpg"
+  },
+  {
+    "num": "03",
+    "file": "03-wild-atlas.html",
+    "title": "Wild Atlas — A Botanical Field Journal",
+    "description": "植物田野笔记：毛地黄、虞美人、欧洲蕨三份标本收在抽屉式档案里，切换时翻出学名、科属、采集坐标与插图。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "03-wild-atlas.jpg"
+  },
+  {
+    "num": "04",
+    "file": "04-neon-velocity.html",
+    "title": "Neon Velocity — Night Run Simulator",
+    "description": "夜间赛道模拟器：按住 ↑ 加速、↓ 刹车，速度表、转速、挡位与圈速实时联动，霓虹路面随车速向后拉伸。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "04-neon-velocity.jpg"
+  },
+  {
+    "num": "05",
+    "file": "05-tide-and-time.html",
+    "title": "Tide & Time — An Ocean Meditation",
+    "description": "海边的呼吸练习：跟着 4 秒吸气、4 秒屏息、6 秒呼气的节奏走，波纹同步起伏；点一下水面会留下涟漪，也可以打开海浪声。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "05-tide-and-time.jpg"
+  },
+  {
+    "num": "06",
+    "file": "06-brutalist-radio.html",
+    "title": "OFF/AIR — Independent Radio",
+    "description": "独立电台的编辑式主页：四个频道各有频率和风格标签，巨型重复字幕、调谐刻度与信号条堆出一种地下广播的粗粝感。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "06-brutalist-radio.jpg"
+  },
+  {
+    "num": "07",
+    "file": "07-celestial-archive.html",
+    "title": "The Celestial Archive — Museum of the Night",
+    "description": "夜空博物馆：猎户座、天琴座、天鹅座、仙后座收在档案抽屉里，选中后展开藏品卡、赤经赤纬与观测说明。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "07-celestial-archive.jpg"
+  },
+  {
+    "num": "08",
+    "file": "08-paper-cinema.html",
+    "title": "Little Riot — Paper Cinema Studio",
+    "description": "纸片电影工作室：一部关于鲸鱼和月亮的 12 格分镜，按每秒 6 帧逐格播放，旁边是导演笔记和曝光表。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "08-paper-cinema.jpg"
+  },
+  {
+    "num": "09",
+    "file": "09-alpine-air.html",
+    "title": "ALTITUDE — The Grand Traverse",
+    "description": "高山徒步的编辑式长页：三天行程分成三幕，海拔、路线、装备与向导信息随滚动逐段推进，像一本私人探险手册。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "09-alpine-air.jpg"
+  },
+  {
+    "num": "10",
+    "file": "10-pixel-teahouse.html",
+    "title": "Cloud Kettle — A Tiny Tea Room",
+    "description": "云上茶室：四款茶叶可选，选茶后茶盘与说明一起更新，还可以点亮茶壶；角落留着「猫已经替你占好座位」的便条。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "10-pixel-teahouse.jpg"
+  },
+  {
+    "num": "11",
+    "file": "11-type-in-motion.html",
+    "title": "Type in Motion — Kinetic Typography Playground",
+    "description": "动态字体实验室：输入自己的短语，切换波浪、轨道、散落、堆叠四种运动，再调速度、字距和字重，指针能把字阵搅乱。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "11-type-in-motion.jpg"
+  },
+  {
+    "num": "12",
+    "file": "12-solar-cooking.html",
+    "title": "Golden Hour Kitchen — Solar Cooking",
+    "description": "日光厨房：一份太阳灶食谱，拖动太阳改变光照角度，阴影和菜品的色温跟着变，三道菜各配步骤卡。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "12-solar-cooking.jpg"
+  },
+  {
+    "num": "13",
+    "file": "13-midnight-florist.html",
+    "title": "Moonstem — The Midnight Florist",
+    "description": "午夜花店：三束夜间花束，选中后花束用 SVG 现场绘制，价格、花材与包装说明一起更新，可以把花放进袋子。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "13-midnight-florist.jpg"
+  },
+  {
+    "num": "14",
+    "file": "14-memory-arcade.html",
+    "title": "Pair Up! — Memory Arcade",
+    "description": "记忆配对街机：8 对卡牌、计步计时、最高分存在本地，开机画面和像素字体都在模仿八十年代的街机柜。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "14-memory-arcade.jpg"
+  },
+  {
+    "num": "15",
+    "file": "15-invisible-cities.html",
+    "title": "Atlas of Elsewhere — Invisible Cities",
+    "description": "横向图集：四座只存在于记忆里的城市（Ondine、Cassira、Virelai……），每座配一幅生成式天际线和一段地方志式的文字。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "15-invisible-cities.jpg"
+  },
+  {
+    "num": "16",
+    "file": "16-sound-sculptor.html",
+    "title": "Form / Frequency — Sound Sculptor",
+    "description": "视听合成器：Web Audio 的振荡器驱动 128 个顶点的实时几何，步进音序器可以点格子编曲，声音和形状共用一组参数。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "16-sound-sculptor.jpg"
+  },
+  {
+    "num": "17",
+    "file": "17-mono-museum.html",
+    "title": "Mono Museum — Studies in Silence",
+    "description": "数字展览：四件单色作品挂在美术馆的墙上，配作品档案、尺寸与说明牌，整页几乎只有黑白两色。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "17-mono-museum.jpg"
+  },
+  {
+    "num": "18",
+    "file": "18-pocket-weather.html",
+    "title": "Fieldwork — Pocket Weather Instrument",
+    "description": "掌上气象仪：拖动时间轴看未来 24 小时的温度、湿度、风与气压，排版是田野笔记式的，图表由脚本实时生成。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "18-pocket-weather.jpg"
+  },
+  {
+    "num": "19",
+    "file": "19-cosmic-bakery.html",
+    "title": "Mooncrumb — Cosmic Bakery",
+    "description": "宇宙烘焙坊：四款糕点绕着轨道转，选中一款落下配方与品尝盒，连「送至银河系」的结账文案都写好了。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "19-cosmic-bakery.jpg"
+  },
+  {
+    "num": "20",
+    "file": "20-the-last-signal.html",
+    "title": "The Last Signal — Deep Space Transmission",
+    "description": "深空接收站：一段窄带信号的解码过程，数据包逐条打印、波形持续滚动，最后才告诉你信号里到底是什么。",
+    "techniques": "",
+    "prompt": "",
+    "thumb": "20-the-last-signal.jpg"
+  }
+]

@@ -1,0 +1,8 @@
+TITLE: Fieldwork — Pocket Weather Instrument
+
+DESCRIPTION:
+掌上气象仪：拖动时间轴看未来 24 小时的温度、湿度、风与气压，排版是田野笔记式的，图表由脚本实时生成。
+
+PROMPT:
+
+TECHNIQUES:

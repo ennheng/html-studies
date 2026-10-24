@@ -1,0 +1,8 @@
+TITLE: Golden Hour Kitchen — Solar Cooking
+
+DESCRIPTION:
+日光厨房：一份太阳灶食谱，拖动太阳改变光照角度，阴影和菜品的色温跟着变，三道菜各配步骤卡。
+
+PROMPT:
+
+TECHNIQUES:
